@@ -28,7 +28,6 @@ manifest:
     - name: cmsis
       revision: 542b2296e6d515b265e25c6b7208e8fea3014f90
       path: modules/hal/cmsis
-      clone-depth: 1
     - name: hal_atmel
       revision: 9f0a699a2f0253dc9688211ef696daa7b8fadb75
       path: modules/hal/atmel
@@ -56,7 +55,6 @@ manifest:
     - name: fatfs
       revision: 13697783bf653dfdf17c57129ce8e181634e5970
       path: modules/fs/fatfs
-      clone-depth: 1
     - name: hal_cypress
       revision: a12d92816a53a521d79cefcf5c38b9dc8a4fed6e
       path: modules/hal/cypress
@@ -92,7 +90,6 @@ manifest:
     - name: hal_stm32
       revision: cea57f86d3ade46c0b99dab32b2ac63435ed0693
       path: modules/hal/stm32
-      clone-depth: 1
     - name: hal_ti
       revision: 405dfc8faba13e01c1cb9e29e70b31b50f71d117
       path: modules/hal/ti
@@ -100,20 +97,16 @@ manifest:
     - name: libmetal
       revision: 0b23894a041bd00a0d3a2288bb34751bbbef790d
       path: modules/hal/libmetal
-      clone-depth: 1
     - name: hal_quicklogic
       repo-path: hal_quicklogic
       revision: 7deb3aab1cc430a7650143f9833cfc8ddad76eb5
       path: modules/hal/quicklogic
-      clone-depth: 1
     - name: lvgl
       revision: 928b61c7c8ef5f770f10e6fd36d4fea0cf375b5e
       path: modules/lib/gui/lvgl
-      clone-depth: 1
     - name: mbedtls
       revision: aef137b1af8aa7a0f43345c82459254b8832262e
       path: modules/crypto/mbedtls
-      clone-depth: 1
     - name: mcuboot
       revision: a5d79cf8ccb2c71e68ef32a71d6a2716e831d12e
       path: bootloader/mcuboot
@@ -133,7 +126,6 @@ manifest:
     - name: open-amp
       revision: 724f7e2a4519d7e1d40ef330042682dea950c991
       path: modules/lib/open-amp
-      clone-depth: 1
     - name: loramac-node
       revision: 3f545d76a2e6d1db83a470ccdb5bebd1f484e137
       path: modules/lib/loramac-node
@@ -161,7 +153,6 @@ manifest:
     - name: mipi-sys-t
       path: modules/debug/mipi-sys-t
       revision: 957d46bc3ce0d5f628f0d525196bb4db207672ee
-      clone-depth: 1
     - name: nrf_hw_models
       path: modules/bsim_hw_models/nrf_hw_models
       revision: f86079a7333968f0ba71fe1266e241295a4e9943
